@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://www.niricson.com/.well-known/*
+host: https://www.niricson.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Niricson publishes no /.well-known/ discovery documents. The company runs a
+  login-gated enterprise SaaS (AUTOSPEX) with no public API, developer portal,
+  OAuth/OIDC surface, or security.txt as of this probe.

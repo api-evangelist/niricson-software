@@ -1,8 +1,31 @@
 aid: niricson-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/niricson-software.png
 name: Niricson Software
-description: Niricson Software is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Niricson Software Inc. is an infrastructure technology company making concrete
+  infrastructure safer through AI-powered digital condition assessment. Its
+  patented AUTOSPEX platform uses machine learning and multi-sensor data fusion
+  (visual, thermal, and acoustic) to automatically detect, quantify, and track
+  defects such as cracks, spalling, delamination, and alkali-aggregate reaction
+  in dams, spillways, bridges, and airfields. Data is collected with its DRONIC
+  architecture and NCX acoustic drone payload, which simulates the traditional
+  concrete hammer-sounding test to identify subsurface delamination up to eight
+  inches deep. Asset owners and civil engineers access results through the
+  login-gated, web-based AUTOSPEX platform to interact with defect maps and
+  compare surveys over time. Niricson operates across the USA, Canada, Australia,
+  and India, and is a Techstars portfolio company. It exposes no public API,
+  developer portal, or SDK at this time.
 url: https://raw.githubusercontent.com/api-evangelist/niricson-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Infrastructure
+- Construction
+- Artificial Intelligence
+- Machine Learning
+- Inspection
+- Drones
+- Condition Assessment
+- Civil Engineering
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +55,20 @@ maintainers:
 common:
 - type: Website
   url: https://niricson.com/
+- type: Pricing
+  url: https://www.niricson.com/pricing/
+- type: Blog
+  url: https://www.niricson.com/media-news/
+- type: PrivacyPolicy
+  url: https://www.niricson.com/our-policies/
+- type: Support
+  url: https://www.niricson.com/get-in-touch/
+- type: DomainSecurity
+  url: security/niricson-software-domain-security.yml
+- type: WellKnown
+  url: well-known/niricson-software-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
