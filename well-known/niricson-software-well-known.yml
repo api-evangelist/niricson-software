@@ -2,18 +2,24 @@ generated: '2026-07-20'
 method: searched
 source: live probes of https://www.niricson.com/.well-known/*
 host: https://www.niricson.com
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
-notes: >-
-  Niricson publishes no /.well-known/ discovery documents. The company runs a
-  login-gated enterprise SaaS (AUTOSPEX) with no public API, developer portal,
-  OAuth/OIDC surface, or security.txt as of this probe.
+notes: Niricson publishes no /.well-known/ discovery documents. The company runs a login-gated enterprise
+  SaaS (AUTOSPEX) with no public API, developer portal, OAuth/OIDC surface, or security.txt as of this
+  probe.
+hosts:
+- host: https://www.niricson.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
