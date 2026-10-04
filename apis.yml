@@ -52,7 +52,7 @@ tags:
 - Infrastructure
 - Construction
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inspection
 - Drones
 - Condition Assessment
@@ -67,6 +67,7 @@ tags_raw:
 - Drones
 - Condition Assessment
 - Civil Engineering
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
