@@ -1,0 +1,36 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.niricson.com/pricing/
+sources:
+- https://www.niricson.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Page states 'Pricing available upon request';
+  all three deployment tiers have a 1-year term but no numeric prices.
+plan_count: 3
+plans:
+- name: AUTOSPEX Platform (Software License)
+  price_text: Get a Quote
+  period: none
+  included_quota: Cloud-hosted platform access, visual and thermal defect layer processing, AI condition
+    intelligence, 3D/2D digital twin, reports and exports; acoustic not included
+- name: AUTOSPEX + Hardware (Software License + Hardware Lease)
+  price_text: Get a Quote
+  period: none
+  included_quota: Everything in AUTOSPEX Platform plus lease of one Niricson inspection system and acoustic/delamination
+    layer
+- name: AUTOSPEX + Full Service (Software License + Turnkey Deployment)
+  price_text: Get a Quote
+  period: none
+  included_quota: Everything in AUTOSPEX Platform plus fully managed end-to-end data collection, on-site
+    capture of all layers
