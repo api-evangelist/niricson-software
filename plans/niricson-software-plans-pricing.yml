@@ -34,3 +34,30 @@ plans:
   period: none
   included_quota: Everything in AUTOSPEX Platform plus fully managed end-to-end data collection, on-site
     capture of all layers
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: AUTOSPEX Platform (Software License)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: AUTOSPEX + Hardware (Software License + Hardware Lease)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: AUTOSPEX + Full Service (Software License + Turnkey Deployment)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
